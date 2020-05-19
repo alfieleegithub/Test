@@ -1,0 +1,53 @@
+.color-green {
+    color: green;
+}
+
+.letter-spacing-3 {
+    letter-spacing: 3px;
+}
+
+.letter-spacing-4 {
+    letter-spacing: 4px;
+}
+
+.letter-spacing-5 {
+    letter-spacing: 5px;
+}
+
+.vertical-header {
+    transform: rotate(-90deg);
+    z-index: 1;
+    bottom: 50%;
+}
+
+.left-header {
+    right: 47.8%;
+}
+
+.right-header {
+    left: 47.8%;
+}
+
+.bg-leaves {
+    background-image: url('images/leaves.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-condos {
+    background-image: url('images/condos.jpg');
+    height: 450px;
+    background-size: cover;
+}
+
+select.form-control {
+    border-radius: 0;
+    border: 0;
+    outline: 1px solid #ced4da;
+}
+
+footer {
+    background-image: url('images/footer.jpg');
+    background-size: cover;
+}
