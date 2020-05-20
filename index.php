@@ -117,7 +117,7 @@
                     <!-- unit size -->
                     <div class="row justify-content-md-start justify-content-center">
                         <div class="col-9 col-md-3 offset-md-1 p-2">
-                            <label for="size">*Unit Size<label>
+                            <label for="size">*Unit Size</label>
                         </div>
                         <div class="col-9 col-md-5 p-2">
                             <select class="form-control" id="size" name="size" required>
@@ -125,7 +125,7 @@
                                 <option value="250 to 500">250 - 500 sq.ft.</option>
                                 <option value="500 to 750">500 - 750 sq.ft.</option>
                                 <option value="750 to 1000">750 - 1000 sq.ft.</option>
-                                <option value="higher than 1000">&gt 1000 sq.ft.</option>
+                                <option value="higher than 1000">&gt; 1000 sq.ft.</option>
                             </select>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                     <!-- How did you hear about us -->
                     <div class="row justify-content-md-start justify-content-center">
                         <div class="col-9 col-md-3 offset-md-1 p-2">
-                            <p for="heard_form">*How did you hear about us?<label>
+                            <p for="heard_from">*How did you hear about us?</label>
                         </div>
                         <div class="col-9 col-md-5 p-2">
                             <select class="form-control" id="heard_from" name="heard_from" required>
@@ -149,15 +149,15 @@
                     <!-- price range -->
                     <div class="row justify-content-md-start justify-content-center">
                         <div class="col-9 col-md-3 offset-md-1 p-2">
-                            <label for="price">*Price Range<label>
+                            <label for="price">*Price Range</label>
                         </div>
                         <div class="col-9 col-md-5 p-2">
                             <select class="form-control" id="price" name="price" required>
                                 <option value="" disabled selected>Please Select</option>
-                                <option value="lower than 400">&lt 400k</option>
+                                <option value="lower than 400">&lt; 400k</option>
                                 <option value="400 to 500">400k - 500k</option>
                                 <option value="500 to 600">500k - 600k</option>
-                                <option value="higher than 600">&gt 600k</option>
+                                <option value="higher than 600">&gt; 600k</option>
                             </select>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
                     <!-- Are you a broker -->
                     <div class="row justify-content-md-start justify-content-center">
                         <div class="col-9 col-md-3 offset-md-1 p-2">
-                            <label>*Are you a broker?<label>
+                            <label>*Are you a broker?</label>
                         </div>
                         <div class="col-9 col-md-5 p-2">
                             <input class="pr-1" id="is_broker" type="radio" name="is_broker" value=1 required>
