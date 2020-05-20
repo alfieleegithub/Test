@@ -133,7 +133,7 @@
                     <!-- How did you hear about us -->
                     <div class="row justify-content-md-start justify-content-center">
                         <div class="col-9 col-md-3 offset-md-1 p-2">
-                            <p for="heard_from">*How did you hear about us?</label>
+                            <label for="heard_from">*How did you hear about us?</label>
                         </div>
                         <div class="col-9 col-md-5 p-2">
                             <select class="form-control" id="heard_from" name="heard_from" required>
